@@ -1,0 +1,10 @@
+<h1>URL shortener</h1>
+<%= form_for(@url, :html => {:class => "form-inline"}) do |f| %>
+  <%= f.label 'http://' %>
+  <%= f.text_field :address, :placeholder => "www.example.com" %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "Sign Up", signup_path %>
+  
+

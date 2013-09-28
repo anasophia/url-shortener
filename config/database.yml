@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: url_shortener_development
+
+test:
+  adapter: postgresql
+  database: url_shortener_test
+
+production:
+  adapter: postgresql
+  database: url_shortener_production
